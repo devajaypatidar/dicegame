@@ -27,7 +27,7 @@ head.addEventListener('click', function(e) {
         head.textContent = "Draw Match 🏁";
     }
 
-    img1.src = `images/dice${randomNumber1}.png`;
-    img2.src = `images/dice${randomNumber2}.png`;
+    img1.src = `dice${randomNumber1}.png`;
+    img2.src = `dice${randomNumber2}.png`;
 
 });
